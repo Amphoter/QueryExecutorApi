@@ -7,6 +7,7 @@ using SimpleQueriesExecutor.Models.Requests;
 
 namespace SimpleQueriesExecutor.Logic
 {
+    //TODO add logic to separate ora and sql server validation. Make it soft to easily add new db types.
     public class QueryValidator
     {
         private const int _commandTimeout = 10;

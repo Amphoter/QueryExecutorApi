@@ -6,6 +6,7 @@ using SimpleQueriesExecutor.Queue;
 
 namespace SimpleQueriesExecutor.Logic
 {
+    //TODO add logic to separate ora and sql server execution. Make it soft to easily add new db types.
     public class QueryExecutor
     {
         private const int _commandTimeout = 10;
